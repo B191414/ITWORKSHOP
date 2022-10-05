@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>REGISTRATION FORMS</title>
+</head>
+<body>
+	<h1 style="color: red;  text-align: center "  >REGISTRATION FORM</h1>
+	<marquee direction="right" behavior="alternate"><span style="color: blue"><b>!!!HURRY UP!!!</b></span></marquee>
+	<hr>
+<form action="" method="post" style="text-align: left">
+	
+<label><b>1.NAME:</b></label>
+<input type="text" name="NAME:" placeholder="enter your name"><br><br>
+<label><b>2.E-MAIL:</b></label>
+<input type="email" name="NAME:" placeholder="enter your e-mail id"><br><br>
+<label><b>3.PASSWORD:</b></label>
+<input type="password" name="NAME:" placeholder="enter the password"><br><br>
+
+<label><b>4.SELECT YOUR GENDER:</b></label><br>
+<input type="radio" name="gender" placeholder="male">
+<label>MALE</label><br>
+<input type="radio" name="gender" placeholder="female">
+<label>FEMALE</label><br>
+<input type="radio" name="gender" placeholder="other">
+<label>OTHERS</label><br><br>
+
+<label><b>5.SELECT COURSE:</b></label><br><br>
+<select>
+	<option>CSE</option>
+	<option>ECE</option>
+	<option selected="EEE">EEE</option>
+	<option>MECH</option>
+	<option>CHEM</option>
+
+
+
+</select>
+
+<br><br>
+<input type="submit" name="submit" value="submit">
+
+
+
+</form>
+
+</body>
+</html> 
