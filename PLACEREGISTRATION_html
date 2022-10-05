@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>placement form</title>
+</head>
+<body>
+
+	<img src="C:/Users/ANAQH/OneDrive/Documents/html/rgukt logo.png" alt="image not found" width="150px" height="170px">
+<h1 style="text-align: center"><span style="color: red"> PLACEMENT REGISTRATIONS</span></h1>
+<form action="" method="post" style="text-align: left">
+	<hr>
+	<label><b>SELECT YOUR GENDER:</b></label>
+<input type="radio" name="gender" placeholder="mrs">
+<label>MRS</label>
+<input type="radio" name="gender" placeholder="miss">
+<label>MISS</label>
+<input type="radio" name="gender" placeholder="ms">
+<label>MS</label><br><br>
+
+	
+<label><b>1.STUDENT ID:</b></label>
+<input type="text" name="NAME:" placeholder="enter your ID"><br><br>
+	
+<label><b>2.FIRST NAME:</b></label>
+<input type="text" name="NAME:" placeholder="enter your first name"><br><br>
+<label><b>3.LAST NAME:</b></label>
+<input type="text" name="NAME:" placeholder="enter your last name"><br><br>
+<label><b>4.USERNAME:</b></label>
+<input type="username" name="NAME:" placeholder="enter your username"><br><br>
+	
+<label><b>5.PASSWORD:</b></label>
+<input type="password" name="NAME:" placeholder="enter your password"><br><br>
+<label><b>6.ADDRESS:</b></label><br>
+<textarea>Here comes your address:-</textarea><br><br>
+<label><b>7.CITY:</b></label>
+<input type="text" name="NAME:" placeholder="enter your name"><br><br>
+	
+<label><b>8.STATE:</b></label>
+<select>
+<option>NIRMAL</option>
+<option>NIZAMABAD</option>
+<option>ARMOOR</option>
+<option>BIDRELLI</option>
+<option>ADILABAD</option>
+<option>KHAMMAM</option>
+</select> 
+
+<label><b>9.PINCODE:</b></label>
+<input type="pincode" name="NAME:" placeholder="enter pincode" size="6"><br><br>
+
+<label><b>10.UPLOAD PHOTO:</b></label>
+<input type="file" name="NAME:"><br><br>
+
+<label><b>11.E-MAIL:</b></label>
+<input type="email" name="NAME:" placeholder="enter your e-mail id"><br><br>
+
+<label><b>12.MOBILE:</b></label>
+<input type="tel" name="NAME:"  value="+91"><br><br>
+
+
+<label><b>13.LANGUAGE:</b></label><br><br>
+<input type="checkbox" name="NAME:" placeholder="HINDI">
+<label><b>HINDI</b></label><br><br>
+<input type="checkbox" name="NAME:" placeholder="TELUGU">
+<label><b>TELUGU</b></label><br><br>
+
+<input type="checkbox" name="NAME:" placeholder="ENGLISH">
+<label><b>ENGLISH</b></label><br><br>
+
+
+
+<label><b>14.ADDITIONAL INFO:</b></label><br>
+<textarea>write something here</textarea><br><br>
+
+<input type="checkbox" name="NAME:" placeholder="text">
+<label><b>Accept terms and conditions</b></label><br><br>
+
+
+
+<button><span style="background-color: skyblue"> SUBMIT</span></button>
+
+
+
+
+
+
+
+</body>
+</html>
