@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css" media="screen">
+
+</head>
+<body>
+	<div class="container"> 
+		<h1>Please login</h1>
+		<br>
+		<form action="" method="post">
+		<input type="text" name="Username"  placeholder="username" name="username"><br>
+		<input type="password" name="password" placeholder="password">
+		<input  class="btn btn-default" type="submit" value="login">
+</form>
+
+
+
+
+	</div>
+
+	</body>
+</html>
