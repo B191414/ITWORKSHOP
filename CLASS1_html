@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basics</title>
+</head>
+<body>
+<h3 ><marquee direction="right" behavior="alternate" style="border: BLACK 4px SOLID" > Here we look into some of the Social Media Websites:-</marquee></h3>
+<hr>
+<a href="https://www.facebook.com/"><img src="fb.png" width="90"></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/accounts/login/"><img src="instagram.jfif" width="83" ></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/"><img src="you.png" width="90"></a><br>
+<a href="https://twitter.com/"><img src="twitter.jfif" width="100"></a>&nbsp;
+<a href="https://googleplus.com"><img src="gplus.png" width="80"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/login"><img src="link.png" width="90"></a>&nbsp;&nbsp;<br><br>
+<a href="https://www.snapchat.com/"><img src="snap.jfif" width="90"></a>&nbsp;&nbsp;
+<a href="https://www.whatsapp.com/"><img src="what.png" width="90"></a>&nbsp;&nbsp;
+<a href="https://www.pintrest.com/"><img src="pin.png" width="90"></a>&nbsp;&nbsp;
+
+<hr>
+
+<h4>Now We look into some of the Tables:</h4>
+<h5>TABLE-1</h5>
+<table border="1" style="text-align: center;">
+	<tr >
+		<td colspan="2" style="background-color: yellow">This cell spans 2 columns</td>
+		<td>three</td>
+
+</tr>
+<tr>
+	<td>four</td>
+	<td>five</td>
+	<td>six</td>
+</tr>
+<tr>
+	<td>seven</td>
+	<td>eight</td>
+	<td>nine</td>
+
+</tr>
+</table>
+<h5>TABLE-2</h5>
+<table border="1" style="text-align: center;">
+	<tr>
+		<td >one</td>
+		<td>two</td>
+		<td rowspan="2" style="background-color: yellow">This cell spans two rows</td>
+	</tr>
+	<tr>
+		<td>four</td>
+		<td>five</td>
+	</tr>
+<tr>
+	<td>seven</td>
+	<td>eight</td>
+	<td>nine</td>
+
+</tr>
+</table>
+<h5>TABLE-3</h5>
+<table border="1" style="text-align: center;">
+	<tr>
+		<th rowspan="3">Day</th>
+		<th colspan="3">Seminar</th>
+	</tr>
+	<tr>
+		<th colspan="2">Schedule</th>
+		<th rowspan="2">Topic</th>
+	</tr>
+	<tr>
+		<th>Begin</th>
+		<th>End</th>
+	</tr>
+	<tr>
+		<th rowspan="2">Monday</th>
+		<td rowspan="2" style="background-color: beige">8:00 a.m</td>
+		<td rowspan="2" style="background-color: darkviolet">5:00 p.m</td>
+		<td>Introduction to XML</td>
+
+		</tr>
+		<tr>
+		<td>Validity:DTD and Relax NG</td>
+		</tr>
+		<tr>
+			<th rowspan="3">Tuesday</th>
+			<td style="background-color: beige">8:00 a.m</td>
+			<td style="background-color: beige">11:00 a.m</td>
+			<td rowspan="3"><p>Xpath<hr>
+		     XSL Transformstions</p></td>
+			
+		</tr>
+		<tr>
+			<td style="background-color: beige">11:00 a.m</td>
+			<td style="background-color: lightgreen">2:00 p.m</td>
+		</tr>
+			<tr>
+				<td style="background-color: lightgreen">2:00 p.m</td>
+				<td style="background-color: darkviolet">5:00 p.m</td>
+				
+
+			</tr>
+			<tr>
+				<th>Wednesday</th>
+				<td style="background-color: beige">8:00 a.m</td>
+				<td style="background-color: lightgreen">12:00 p.m</td>
+				<td>XSL Formatting Objects</td>
+			</tr>
+
+
+</table>
+</body>
+</html>
