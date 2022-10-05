@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\author{VENKY}
+
+\begin{document}
+\begin{center}
+    \Huge \frame{ RESUME}\\
+   
+    \textbf{COLLEGE:}\color{purple}\texttt{RGUKT, BASAR}\\
+    
+\textbf{\color{black}ADDRESS:}  \color{purple}\texttt{RGUKT,IIIT BASAR}\\
+
+    \includegraphics[width=0.3\linewidth, right, frame]{me}\end{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{NAME:} & \color{green}K.VENKATESH\\ \hline
+\textbf{MOBILE NO:} & 965XXXXXX30.\\ \hline
+\textbf{MAILID:} & \color{purple}B191414@rgukt.ac.in.\\ \hline
+\end{tabular}\\ \\https://www.overleaf.com/project/633d674bed44bf4949871af8
+\Huge{\texttt{\underline{OBJECTIVES:}}}To be a professional who can make a qulitative difference with an esteemed organization, where high competence and skills is rewarded.\\
+Education:
+\begin{itemize}
+\item Purusing B.TECH (CSE) 1st Year in RGUKT-IIT-Basar.
+\item Completed SSC from so and so place.
+TECHNICAL/OTHER KEY SKILLS:
+\item Working Knowledge of Computers.
+\item Quick learner-learning things very quickly and adopt it in understandable manner.
+\item :Logical thinker: always solve the problems with best logical solutions.
+\item Communication Skills: Fluency in english, Telugu and Hindi.
+    
+\end{itemize}
+
+\end{document}
