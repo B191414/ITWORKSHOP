@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>time table</title>
+</head>
+<body>
+
+	<table border="2" style="text-align: center;">
+		<tr>
+			<th colspan="7">TIME TABLE</th>
+		</tr>
+		<tr>
+		<th rowspan="6">HOURS</th>
+		<th>MON</th>
+		<th>TUE</th>
+		<th>WED</th>
+		<th>THU</th>
+		<th>FRI</th>
+		<th>SAT</th>
+	</tr>
+	<tr>
+		<td>social</td>
+		<td>maths</td>
+		<td>physics</td>
+		<td>biology</td>
+		<td>arts</td>
+		<td>p.Ed</td>
+		</tr>
+		<tr>
+		<td>chemistry</td>
+		<td>history</td>
+		<td>english</td>
+		<td>maths</td>
+		<td>sports</td>
+		<td>env.Sc</td>
+		</tr>
+		<tr>
+			<th colspan="5">LUNCH</th>
+			<td rowspan="3">half day</td>
+		</tr>
+		<tr>
+			<td>maths</td>
+			<td>biology</td>
+			<td>physics</td>
+			<td>social</td>
+			<td rowspan="2">project</td>
+			
+			</tr>
+			<tr>
+				<td>chemistry</td>
+				<td>maths</td>
+				<td>sports</td>
+				<td>physics</td>
+				
+			</tr>
+
+
+		</tr>
+	</tr>
+			
+	</tr>
+
+	</table><hr>
+	<style> 
+      h1{
+      	text-align: center;
+      	font: cursive;
+      	color: red
+      	
+      }
+
+	</style>
+	<h1 >TIME TABLE FOR CLASS C2-CSE</h1><hr>
+
+	<table border="2" cellspacing="0" style="text-align: center;">
+		<tr>
+			<th>Year</th>
+			<th>Time</th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+			
+		</tr>
+		<tr >
+			<th rowspan="8">C3(c3:cs121,CSE dept block)</th>
+			<td>09:00 AM to 09:55 AM</td>
+			<td style="background-color: lightgrey;">DEVC</td>
+			<td style="background-color: lightblue">PHY</td>
+			<td rowspan="3" style="background-color: lightblue">PHY LAB</td>
+			<td style="background-color: lightblue">PHY</td>
+			<td style="background-color: lightblue">PHY</td>
+			<td style="background-color: green">CS-II</td>
+		</tr>
+		<tr >
+			<td>10:00 AM to 10:55 AM</td>
+			<td style="background-color: lightblue">PHY</td>
+			<td style="background-color: green">CS-II</td>
+			<td style="background-color: lightpink">BEE</td>
+			<td rowspan="2" style="background-color: lightgrey;">DEVC</td>
+			<td rowspan="2" style="background-color: orange">EG(L)-MDH-2</td>
+		</tr>
+		<tr>
+			<td>11:00 AM to 11:55 AM</td>
+			<td rowspan="2" style="background-color: orange">EG(T)</td>
+			<td rowspan="2" style="background-color: lightpink">BEE</td>
+			<td style="background-color: lightgrey;">DEVC</td>
+		</tr>
+		<tr >
+			<td>12:00 AM to 12:55 PM</td>
+			<td style="background-color: lightpink">BEE</td>
+			<td></td>
+			<td style="background-color: lightgreen">ENG</td>
+			<td style="background-color: lightgreen">ENG</td>
+		</tr>
+		<tr>
+		<th colspan="7" >LUNCH BREAK</th>
+	</tr>
+	<tr >
+			<td>02:00 PM to 02:55 PM</td>
+			<td rowspan="3" style="background-color: yellow">IT WORKSHOP</td>
+			<td rowspan="2" style="background-color: orange">EG(L)-MDH-2</td>
+			<td></td>
+			<td rowspan="2" style="background-color: lightpink">BEE</td>
+			<td rowspan="2" style="background-color: lightgreen">ENG Lab</td>
+			<td></td>
+	</tr>
+	<tr>
+		<td>03:00 PM to 03:55 PM</td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr >
+		<td>04:00 PM to 04:55 PM</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+
+
+
+	</table>
+
+</body>
+</html>
