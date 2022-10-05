@@ -1,0 +1,52 @@
+\documentclass{beamer}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\begin{block}{Hey there People}
+Below we have some features in Beamer
+\end{block}
+\title{THIS IS all about}
+\author{VENKATESH}
+\date{October 2022}
+
+\begin{document}
+\frame{\titlepage}
+\begin{block}{Preface}
+HERE BELOW WE HAVE LIST THAT WE GONNA SEE FURTHER:
+\end{block}
+
+    \tableofcontents
+    
+    \section{List of Friends}
+    \subsection{How you met your Friends}
+    \subsection{Their Bond with you}
+    
+    \section{Your Hobbies}
+    \section{Your goals}
+    \section{SAY SOMETHING}
+\begin{frame}{TABLE}
+\begin{block}{.}
+YOUR GRADES IN THE FORM OF TABLES:
+\end{block}
+
+\begin{tabular}{|c|c|c|}
+\hline
+   S.no  & Name & Grdae  \\ \hline
+    1.   & ANdrew& EX \\ \hline
+    2.   & VIKRAM & B \\ \hline
+    3.   & ALEX & A \\ \hline
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}{CONCLUSION:}
+\begin{block}{.}
+\centering
+LETS MEET IN THE NEXT SESSION...\\
+THANK YOU BYE!!!
+\end{block}
+    
+\end{frame}
+
+
+
+\end{document
