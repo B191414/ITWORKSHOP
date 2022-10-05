@@ -1,0 +1,79 @@
+\documentclass{exam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{bbold}
+\title{TYPESETTING EXAM}
+\author{VENKY}
+\begin{document}
+\pagestyle{headandfoot}
+
+\firstpageheader{MATHS}{\textbf{ASSIGNMENT}}{IIITB}
+\rule{\textwidth}{0.4pt}\\\\
+\textbf{Problem 1.} Show that there exits no nontrivial unramified extentions of  $Q$\\
+\\
+\textbf{Solution:} If $K/Q$ is a nontrivial number field, then $|$ disc$K$$|$$>$ 1. But then disc $K$ has a prime factor so that some Prime ramifies in $K$.\\
+\\
+\textbf{Problem 2.} Complete the following:\\
+\\
+(a) How does one prove a cotheorem?\\
+\\
+(b) Compute $\int cos x dx.$\\
+\\
+\text{(c) How does one square}
+$\begin{pmatrix}
+a & b\\
+c & d 
+
+\end{pmatrix}?$\\
+\\
+\textbf{Solution:}\\
+\\
+\text{(a) Use rollaries.}\\
+\\
+(b) We have\\
+
+\begin{equation}
+\int cos x dx= sinx+C  
+\end{equation}\\
+We can check (1):\\
+\begin{center}
+   \[\frac{d}{d x}(sin x+C)=cos x\]
+\end{center}
+\textbf{Problem 3.} Prove that $\sqrt{2}$ is irrational.
+\\ \\\textit{proof.} Assume that  $\sqrt{2}$ = $\frac{a}{b}$, where \textit{a,b} $\in$ $Z$. Without loss of generality, we may assume gcd \textit{(a,b)} = \\ \\ 1.Then we have
+\begin{center}
+ $\sqrt{2}$ = $\frac{a}{b}$    
+ \begin{equation}
+      \sqrt{2}^2 = \begin{pmatrix}\frac{a}{b} \end{pmatrix}^2
+ \end{equation}
+ 2=$\frac{a^2}{b^2}$
+ \begin{equation}
+     a^2=2b^2
+ \end{equation}
+ \text{But then from(3), we know that $a^2$ is even so that a is even. But then we must have}
+\\ $2a^2=b^2$
+\\ \text{So that $b^2$ is even, implying b is even. But then gcd $(a,b)\ge 2$, a contradiction.} \\
+
+
+\end{center}(b)
+
+\includegraphics[width=0.5\textwidth]{sm}
+
+
+4.\textbf{Solving puzzle:} 1.In class, we did three puzzles, the first of which is equivalent to finite automata. In general, a puzzle of this type has a frame like this (but possibly with more/fewer squares and different colors):\\
+\includegraphics[width=0.7\textwidth]{puz-1}
+
+And a finite set of this (but possibly with more/fewer tiles and different colors):
+
+\includegraphics[width=0.7\textwidth]{puz-2}
+
+The tiles must be arranged so that adjacent areas have matching colors. There is an unlimited number of copies of each tile.\\\\
+(a) Show how every puzzle of this type can be converted into finite automation \textit{M} and a string \textit{w} such that \textit{M} accepts \textit{w} if and only if the puzzle has no solution.\\\\
+(b) Apply your construction to the above instance.\\\\
+(c) Briefly describe how this gives an \textit{O}(n) algorithm for solving puzzles of this type.
+
+
+\end{document}
+
