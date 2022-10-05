@@ -1,0 +1,130 @@
+\documentclass{knittingpattern}
+\documentclass{article}
+\usepackage{chemfig}
+\usepackage{xskak}
+\usepackage{modiagram}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{bbold}
+\definecolor{colour3}{HTML}{99CCFF}
+\definecolor{colour5}{HTML}{CCFFCC}
+\definecolor{colour0}{HTML}{000000}
+\definecolor{colour2}{HTML}{97DE76}
+\definecolor{colour4}{HTML}{EDB668}
+
+\title{LATEX-ASSIGNMENT-1}
+
+\date{\today}
+
+\begin{document}
+\text{\huge \textbf{K:VENKATESH; ID : B191414 }}\\\\
+\hline
+\section{Knitting Patterns}
+\paragraph{This class provides a very convenient way to introduce boxed diagrams. We are thus going to use our stock image a few more times. Also, it has a few features to make knitting instructions more readable, however, we can adapt them to make prettier documents for our purposes as well.}
+\begin{center}
+   \includegraphics[frame]{download} \\
+  
+\end{center}
+\important{colour0}{colour4}{We have a way of highlighting important text, or as was Originaly intended, important instructions. Feel free to choose whatever background and border colour you like when  you replicate these features, but try to replicate the dimensions as well as you can.}
+
+\begin{pattern}{colour3}{colour5}
+Course &  Credits\\
+Introduction to Computer Programming & (6)\\
+Abstracions and Paradigms in Programming & (6)\\
+Abstracions and Paradigms in Programming Lab & (5)\\
+Data Structure and Algorithms & (6)\\
+Software Systems Lab & (8)\\
+
+\end{pattern}
+\note{colour0}{colour2}{Note}{
+   This is a note. The above feature was introduced to typeset a sequence of Knitting instructions. The first column is for the instruction, the second for the number of stitches. But hey, it looks cool!
+}
+
+\intro{
+   Look at the adjoining graph. Yes you've seen it before . This time, it is side by side with a paragraph! And there's a beautiful box around it! By default, this will be a quarter of the width of the page. If you follow the hint that is the title of this section, you won't have to type in cumbersome code to fit in images. Also, have you noticed that the pages are much wider? A lot of it will be clear when you read up on the Knitting patterns class. it is already available with MacTeX distributions, and of course, online on Overleaf. If your distributions do not offer it, download it from here and copy the .cls file to the folder/directory your code is in . See the point where stuff becomes exponentially harder to do without LATEX? We daresay the rest of this assignment crosses that point. Good luck!
+}{download}
+
+\section{Chess Notation}
+\newchessgame
+\mainline{1.h5 b5 2.Nh3 e5 3.Kf1 c5}\\
+\mainline{4.b4 Bc5 5.Nc3 Bb4 6.Nd5 Bc5}\\
+\mainline{7.g4 Qa5 8.d3 Qb4 9.e4 Qb2}\\
+\mainline{10.Rg1 Qb4 11.f4 Qb2 12.Rb1 Bd6 }\\
+\mainline{13.Ra1 Be5 14.Ng5 Bf4 15.Ne6 Be5}\\
+\mainline{16.Nd4 Bd6 17.Nf5 Bc5 18.Bf4 Bb4}\\
+\mainline{19.Bd6 Bc5 20.Qf3}
+\chessboard[]\\
+\newchessgame\\
+\mainline{1.h4 Na6 2.g4 b6 3.b3 e6}\\
+\mainline{4.e4 Qe7 5.f4 Kd8 6.h5 e5 7.e5 Qf6 }\\
+\mainline{8.b4 Qf4 9.d3 Qb4 10.Nc3 Rb8}\\
+\mainline{11.Ba3 Qd6 12.Nh3 Bg7 13.Nf4 Qc7}\\
+\mainline{14.Ne6 Ra8 15.Bd6 Bh6 16.Ng7 Qc6}\\
+\mainline{17.Ke2 Qh1 18.Qa1 Bg5 19.Qf1 Bf4}\\
+\mainline{20.Qf2 Bh2 21.Na4 Qa1 22.Nc3 Bg1}\\
+\mainline{23.Qf6 Bh2 24.Nd5 b5}
+\chessboard[]\\
+\newchessgame
+\mainline{1.h4 Na6 2.g4 b6 3.b3 e6}\\
+\mainline{4.e4 Qe7 5.f4 Kd8 6.h5 e5 7.e5 Qf6 }\\
+\mainline{8.b4 Qf4 9.d3 Qb4 10.Nc3 Rb8}\\
+\mainline{11.Ba3 Qd6 12.Nh3 Bg7 13.Nf4 Qc7}\\
+\mainline{14.Ne6 Ra8 15.Bd6 Bh6 16.Ng7 Qc6}\\
+\mainline{17.Ke2 Qh1 18.Qa1 Bg5 19.Qf1 Bf4}\\
+\mainline{20.Qf2 Bh2 21.Na4 Qa1 22.Nc3 Bg1}\\
+\mainline{23.Qf6 Bh2}\\
+\mainline{ 24.Nd5 b5 25.h4 Nf6 26.Be7 b6}
+\chessboard[]
+\section{Chemistry}
+\subsection{Structure for Hydroxychloroquine}
+\chemfig{*6((-Cl)-=(*6(-N=-=(-HN(*6(-*6(--*6(--N*6(--)-(-*6(-OH))))-)))-))-=-=)}
+
+\paragraph{This is the molecule Hydroxychloroquine, that recently shot to fame as for COVID-19.}
+\subsection{Molecular Orbital Diagrams}
+\begin{MOdiagram}\\\\
+
+\atom{left}{
+      2p, 2p, 2p = {4.75;up,up,up}
+  }
+  \atom{right}{
+      2p, 2p, 2p = {6.75;pair,up,up}
+  }
+  \molecule{
+      2pMO, 2pMO, 2pMO = {3.75;pairnode[ocirc]{},pair,pair,up}
+  }
+ 
+\end{MOdiagram}
+\paragraph{Molecular Orbital diagram for Nitric Oxide}
+\section{Electrical Circuits}
+\begin{circuitikz}{capacitor}
+\draw
+ (0,0)(-3,0)node[ocirc]{$\textbf{+}$} to[short, -][C=$C_1$ ](0,0)
+ (0,3)to[R=$R_1$](0,2)    to[short,-](0,-2) to[R=$R_2$](0,-3)
+ to [short,-](0,-4) to [short,*-](-3,-4)   to[short,*-]node[ocirc]{$\textbf{-}$}(-3,-4)
+(0,0) to[short, *-]node[inputarrow]{$i_B$}(3,0)node[npn, anchor=B]{$B$}  
+(3.85,-0.7)to [short=$E$,-]node[currarrow]{$i_E$} (3.85,-1.9) to[short,-](6,-1.9) to[C=$C_2$](6,-4)node[ground]{}  to[short,*-](3.85,-4)to[short,*-](0,-4) to[short,*-](3.85,-4.0) to[R=$R_E$](3.85,-1) ; 
+\draw 
+(3.85,4)to [short,*-](3.85,4) to[short,-](0,4) to[short,-](0,3);
+\draw
+(3.85,4)to[short,-](9,4) node[ocirc]{$\textbf{+}$};
+\draw
+(3.85,4)to[R=$R_L$](3.85,2);
+\draw
+(3.85,0.8)to[short,*-](8,0.8) node[ocirc]{$\textbf{+}$} ;
+\draw
+ (3.85,0.8)to[short,-]node[currarrow]{$i_C$}(3.85,2);
+ \draw
+ (6,-4)to[short,-](0,-4) to[short,-](8,-4) node[ocirc]{$\textbf{-}$} to[short,-](9,-4)node[ocirc]{$-$}  ;
+
+\end{circuitikz}
+\paragraph{This is a circuit diagram of an npn Transistor used as an Amplifier. }
+\section{Typesetting Exams}
+
+\end{document}
